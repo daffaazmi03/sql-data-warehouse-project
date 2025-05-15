@@ -45,7 +45,7 @@ Gold Layer adalah representasi data pada tingkat bisnis, yang disusun untuk mend
 ---
 
 ### 3. **gold.fact_sales**
-- **Purpose:** Stores transactional sales data for analytical purposes.
+- **Purpose:** Menyimpan data transaksi penjualan untuk keperluan analisis.
 - **Columns:**
 
 | Column Name     | Data Type     | Description                                                                                   |
