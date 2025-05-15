@@ -50,12 +50,13 @@ Gold Layer adalah representasi data pada tingkat bisnis, yang disusun untuk mend
 
 | Column Name     | Data Type     | Description                                                                                   |
 |-----------------|---------------|-----------------------------------------------------------------------------------------------|
-| order_number    | NVARCHAR(50)  | A unique alphanumeric identifier for each sales order (e.g., 'SO54496').                      |
-| product_key     | INT           | Surrogate key linking the order to the product dimension table.                               |
-| customer_key    | INT           | Surrogate key linking the order to the customer dimension table.                              |
-| order_date      | DATE          | The date when the order was placed.                                                           |
-| shipping_date   | DATE          | The date when the order was shipped to the customer.                                          |
-| due_date        | DATE          | The date when the order payment was due.                                                      |
-| sales_amount    | INT           | The total monetary value of the sale for the line item, in whole currency units (e.g., 25).   |
-| quantity        | INT           | The number of units of the product ordered for the line item (e.g., 1).                       |
-| price           | INT           | The price per unit of the product for the line item, in whole currency units (e.g., 25).      |
+| order_number    | NVARCHAR(50)  | Pengenal alfanumerik unik untuk setiap pesanan penjualan (misalnya, 'SO54496').                      |
+| product_key     | INT           | Kunci pengganti yang menghubungkan pesanan dengan tabel dimensi produk.                               |
+| customer_key    | INT           | Kunci pengganti yang menghubungkan pesanan dengan tabel dimensi pelanggan.                              |
+| order_date      | DATE          | Tanggal saat pesanan dibuat.                                                          |
+| shipping_date   | DATE          | Tanggal saat pesanan dikirimkan ke pelanggan.                                          |
+| due_date        | DATE          | Tanggal jatuh tempo pembayaran pesanan.                                                      |
+| sales_amount    | INT           | Total nilai uang dari penjualan untuk item tersebut, dalam satuan mata uang penuh (misalnya, 25).   |
+| quantity        | INT           | Jumlah unit produk yang dipesan untuk item tersebut (misalnya, 1).                      |
+| price           | INT           | Harga per unit produk untuk item tersebut, dalam satuan mata uang penuh (misalnya, 25).
+      |
